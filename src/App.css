@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+p {
+    padding: 20px;
+}
+
+button {
+    position: absolute;
+    top: 80vh;
+    padding: 20px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.main_screen_btn {
+    right: 10vw;
+}
+
+.default_screen_btn {
+    position: fixed;
+    left: 30vw;
+    z-index: 1;
+}
+
+.main_screen {
+    position: relative;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
